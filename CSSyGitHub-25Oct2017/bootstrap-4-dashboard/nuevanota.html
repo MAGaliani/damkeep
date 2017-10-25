@@ -66,68 +66,51 @@
 
 					<div class="clear"></div>
 				</header>
-
 				<section>
-					<div class="col-lg-5 mb-5">
-						<a href="nuevanota.html"><button type="button" class="btn btn-sm btn-success">Añadir nota</button></a>
-					</div>
-				</section>
-
-				<section class="row">
-
-					<div class="col-lg-3 mb-3">
-						<div class="card card-inverse card-warning">
-							<div class="card-header">Default Card <a href="index.html" class="fa fa-times" style="color: white; float: right;"></a></div>
-
+					<div class="col-sm-12 col-md-6">
+						<div class="card mb-6">
 							<div class="card-block">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-														ut ante in sapien blandit luctus sed ut lacus. Phasellus urna est, faucibus
-														nec ultrices placerat, feugiat et ligula. Donec vestibulum magna a dui
-														pharetra molestie. Fusce et dui urna.</p>
+								<h3 class="card-title">Nueva nota</h3>
+
+								<div class="dropdown card-title-btn-container">
+									<button class="btn btn-sm btn-subtle dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><em class="fa fa-cog"></em></button>
+
+									<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#"><em class="fa fa-search mr-1"></em> More info</a>
+										<a class="dropdown-item" href="#"><em class="fa fa-thumb-tack mr-1"></em> Pin Window</a>
+										<a class="dropdown-item" href="#"><em class="fa fa-remove mr-1"></em> Close Window</a></div>
+								</div>
+
+								<form class="form-horizontal" action="" method="post">
+									<fieldset>
+										<!-- Name input-->
+										<div class="form-group">
+											<label class="col-12 control-label no-padding" for="name">Título</label>
+
+											<div class="col-12 no-padding">
+												<input id="name" name="name" type="text" placeholder="Escribe aqui el título" class="form-control">
+											</div>
+										</div>
+
+										<!-- Message body -->
+										<div class="form-group">
+											<label class="col-12 control-label no-padding" for="message">Contenido</label>
+
+											<div class="col-12 no-padding">
+												<textarea class="form-control" id="message" name="message" placeholder="Escribe aquí el contenido de la nota..." rows="5"></textarea>
+											</div>
+										</div>
+
+										<!-- Form actions -->
+										<div class="form-group">
+											<div class="col-12 widget-right no-padding">
+												<a class="btn btn-success" href="index.html" role="button" style="color: white;">Añadir nota</a>
+											</div>
+										</div>
+									</fieldset>
+								</form>
 							</div>
 						</div>
 					</div>
-
-					<div class="col-lg-3 mb-3">
-						<div class="card card-inverse card-primary">
-							<div class="card-header">Default Card <a href="index.html" class="fa fa-times" style="color: white; float: right;"></a></div>
-
-							<div class="card-block">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-														ut ante in sapien blandit luctus sed ut lacus. Phasellus urna est, faucibus
-														nec ultrices placerat, feugiat et ligula. Donec vestibulum magna a dui
-														pharetra molestie. Fusce et dui urna.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-3 mb-3">
-						<div class="card card-inverse card-success">
-							<div class="card-header">Default Card <a href="index.html" class="fa fa-times" style="color: white; float: right;"></a></div>
-
-							<div class="card-block">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-														ut ante in sapien blandit luctus sed ut lacus. Phasellus urna est, faucibus
-														nec ultrices placerat, feugiat et ligula. Donec vestibulum magna a dui
-														pharetra molestie. Fusce et dui urna.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-3 mb-3">
-						<div class="card card-inverse card-info">
-							<div class="card-header">Default Card <a href="index.html" class="fa fa-times" style="color: white; float: right;"></a></div>
-
-							<div class="card-block">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-														ut ante in sapien blandit luctus sed ut lacus. Phasellus urna est, faucibus
-														nec ultrices placerat, feugiat et ligula. Donec vestibulum magna a dui
-														pharetra molestie. Fusce et dui urna.</p>
-							</div>
-						</div>
-					</div>
-
-
 				</section>
 			</main>
 		</div>
